@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 1 SOYUZ</title>
+</head>
+<body>
+    <table border="1" cellpadding="10">
+        <tr align="center" bgcolor="yellow">
+            <td><b>No</b></td>
+            <td><b>Nama</b></td>
+            <td><b>Email</b></td>
+            <td><b>Alamat</b></td>
+            <td><b>Jenis Kelamin</b></td>
+            <td><b>Agama</b></td>
+            <td><b>Hobi</b></td>
+            <td><b>Instagram</b></td>
+            <td><b>Logo Universitas</b></td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Ainun</td>
+            <td>nraainun06@gmail.com</td>
+            <td>Jl. Pendidikan Utara</td>
+            <td bgcolor="pink">
+                Perempuan
+            </td>
+            <td rowspan="3">Islam</td>
+            <td>
+                <ol>
+                    <li>Membaca</li>
+                    <li>Menonton</li>
+                </ol>
+            </td>
+            <td>
+                <a href="https://www.instagram.com/nr_aainun/">@nr_aainun</a>
+            </td>
+            <td rowspan="3">
+                <img src="logo_U-removebg-preview.png" height="120"/><br>
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Yuli</td>
+            <td>yulianingsih180705@gmail.com</td>
+            <td>Jl. Maleo</td>
+            <td bgcolor="pink">
+                Perempuan
+            </td>
+            
+            <td>
+                <ol>
+                    <li>Membaca</li>
+                    <li>Menonton</li>
+                </ol>
+            </td>
+            <td>
+                <a href="https://www.instagram.com/yuliiaaningsih_/">@yuliiaaningsih_</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Lara</td>
+            <td>larafzia26@gmail.com</td>
+            <td>Jl. Dayodara</td>
+            <td bgcolor="pink">
+                Perempuan
+            </td>
+            <td>
+                <ol>
+                    <li>Membaca</li>
+                </ol>
+            </td>
+            <td>
+                <a href="https://www.instagram.com/_larafzia/">@_larafzia</a>
+            </td>
+        </tr>
+
+    </table>
+    <h2>
+        <p>
+            <b>Formulir Pendaftaran</b>
+        </p>
+    </h2>
+    <form>
+        <label for="Nama:">Nama:</label><br />
+        <input type="text" id="Nama" Nama="Nama" /><br />
+
+        <label for="Email:">Email:</label><br />
+        <input type="text" id="Email" Nama="Email" /><br />
+
+        <label for="Alamat">Alamat:</label>
+        <br />
+        <textarea id="alamat" rows="2" cols="18"></textarea><br />
+
+        <label for="jKelamin">Jenis Kelamin:</label> <br />
+        <input type="radio" id="jKelamin" name="jenis_kelamin" value="jkelamin" />
+        <label for="Laki-laki">Laki-laki</label>
+        <input type="radio" id="jKelamin" name="jenis_kelamin" value="jkelamin" />
+        <label for="Perempuan">Perempuan</label><br />
+
+        <label for="agama">Agama:</label>
+        <select>
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Budha">Budha</option>
+            <option value="Konghuchu">Konghuchu</option>
+        </select> <br />
+
+        <label for="hobi">Hobi:</label> <br />
+        <input type="checkbox" id="hobi1" name="hobi1" value="Membaca" />
+        <label for="hobi1"> Membaca</label>
+        <input type="checkbox" id="hobi2" name="hobi2" value="Menulis" />
+        <label for="hobi2"> Menulis</label>
+        <input type="checkbox" id="hobi3" name="hobi3" value="Menggambar" />
+        <label for="hobi3">Menggambar</label><br />
+
+        <input type="submit" value="Kirim" />
+    </form>
+</body>
+</html>

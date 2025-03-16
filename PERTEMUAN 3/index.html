@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML #2</h1>
+    <p><strong>Teks Formatting <i>itu penting</i> di HTML</strong></p>
+    <p><i>teks miring Italic</i></p>
+    <p><em>teks miring Emphasis</em></p>
+    <p><u>ini teks underline</u></p>
+    <p><s>ini teks strike</s></p>
+    <p>Pangkat<sup>2</sup></p>
+    <p>CO<sub>2</sub></p>
+    <p>2<sup>3</sup> 2<sub>5</sub></p>
+    <p>ini catatan <mark>penting</mark></p>
+
+    <a href="https://www.youtube.com/">Link YouTube</a><br>
+    <a href="about.html">About Us</a><br>
+    <img src="Image PT.png" /><br>
+    <figure>
+        <img src="Image PT.png" />
+        <figcaption>Poster</figcaption>
+    </figure>
+
+    <ol type="I"> 
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <ol type="i"> 
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <dl>
+        <dt>Kata 1</dt>
+        <dd>Penjelasan</dd>
+        <dt>Kata 2</dt>
+        <dd>Penjelasan</dd>
+    </dl>
+
+    <ol>
+        <li>Jenis Jenis  OS</li>
+        <ul type="square">
+           <li>Debian</li>
+           <li>Windows</li>
+           <li>MacOS</li>
+        </ul>
+    </ol>
+
+    <table border="1" cellpadding="12">
+        <th rowspan="2">No.</th>
+        <th bgcolor="orange" colspan="2">Data MahasiWma</th>
+        <tr bgcolor="red">
+            <th>Nama</th>
+            <th>NIM</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Lisa</td>
+            <td>F52124035</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>AINUN</td>
+            <td>F52124024</td>
+        </tr>
+    </table><br>
+    
+    <table>
+        <tr bgcolor="red">
+            <th rowspan="2">Bulan</th>
+            <th colspan="2">Hasil Panen</th>
+        </tr>
+        <tr>
+            <td bgcolor="pink">Kacang</td>
+            <td bgcolor="blue">Padi</td>
+        </tr>
+        <tr>
+            <td>Januari</td>
+            <td>100</td>
+            <td>80</td>
+        </tr>
+    </table><br>
+
+<form>
+    <label>Nama : <input type="text" /></label><br>
+
+    <label for="jenis-kelamin">Jenis Kelamin</label>
+    <input type="radio" id="laki-laki" name="jenis-kelamin" value="laki-laki"/>
+    <label for="laki-laki">Laki-Laki</label>
+    <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan"/>
+    <label for="perempuan">Perempuan</label><br>
+
+    <label for="minat">Minat :</label><br>
+    <input type="checkbox" id="coding" name="minat" value="Coding"/>
+    <label for="minat">Coding</label> 
+        <input type="checkbox" id="design" name="minat" value="Design"/>
+    <label for="minat">Design</label> <br>
+
+    <label for="message">Masukkan Pesan :</label>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+    <label for="kelas">Kelas</label>
+    <select>
+        <option value="1">Kelas A</option>
+        <option value="2">Kelas B</option>
+        <option value="3">Kelas E</option>
+    </select>
+</form>
+</body>
+</html>
